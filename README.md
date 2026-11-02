@@ -1,52 +1,59 @@
-Movie Genre Classification
+Reinforcement Learning for Games
 
 Internship: CODETECH
 Author: Shaik Rehaman
 
 Project Description
 
-Movie Genre Classification is a Machine Learning project that predicts movie genres based on movie-related text or descriptions.
+This project uses Reinforcement Learning to develop an AI agent that learns to play Tic-Tac-Toe using the Q-Learning algorithm.
+
+The agent learns through repeated games against a random opponent and improves its decision-making based on rewards.
 
 Objectives
 
-- Analyze movie descriptions.
-- Process and prepare text data.
-- Train a Machine Learning classification model.
-- Predict movie genres.
+- Understand Reinforcement Learning.
+- Implement the Q-Learning algorithm.
+- Train an AI agent to play Tic-Tac-Toe.
+- Evaluate the agent's performance.
 
 Technologies Used
 
 - Python
-- Pandas
 - NumPy
-- Scikit-learn
+- Pandas
 - Matplotlib
-- Seaborn
+- Scikit-learn
 - Joblib
 
-Machine Learning Techniques
+Algorithm Used
 
-- Text Preprocessing
-- TF-IDF Vectorization
-- Classification Algorithm
+- Q-Learning
+- Epsilon-Greedy Exploration
 
 Project Files
 
-- "Movie_Genre_Classification.ipynb" – Main project notebook.
+- "Reinforcement_Learning_Game.ipynb" – Main project notebook.
 - "requirements.txt" – Required Python libraries.
-- "Movie_Genre_Results.zip" – Project results.
-- "Movie_Genre_Complete.zip" – Complete project files.
+- "Task_3_Results.zip" – Model and evaluation outputs.
+- "Task_3_Documentation.zip" – Project documentation.
 
 How to Run
 
 1. Open the notebook in Google Colab.
 2. Install the required libraries.
 3. Run all notebook cells.
-4. View the prediction results and evaluation outputs.
+4. Observe the training and evaluation results.
 
 Expected Output
 
-The trained model predicts the genre of a movie based on its description.
+- Trained Q-Learning model.
+- Training performance graph.
+- Evaluation metrics.
+- Tic-Tac-Toe AI agent.
+
+Conclusion
+
+The project demonstrates how an AI agent can learn game strategies through trial and error using Reinforcement Learning.
 
 Author
 
